@@ -13,4 +13,3 @@ for _ in range(15):
     tim.pendown()
 
 screen = Screen()
-screen.exitonclick()
