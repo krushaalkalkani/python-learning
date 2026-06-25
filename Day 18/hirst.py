@@ -29,7 +29,7 @@ tim.setheading(0)
 number_of_dots = 100
 
 
-for dot_count in range(1, number_of_dots + 1):
+for dot_count in range(0, number_of_dots):
     tim.dot(20, random.choice(colors_list))
     tim.forward(50)
     if (dot_count + 1) % 10 == 0:
