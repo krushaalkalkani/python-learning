@@ -1,0 +1,6 @@
+node_modules/
+backend/crm.db
+frontend/build/
+.DS_Store
+*.log
+.env
